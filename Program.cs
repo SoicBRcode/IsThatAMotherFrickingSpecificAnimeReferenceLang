@@ -1,13 +1,12 @@
-﻿/*
+/*
 Commands:
-    YES YES YES Increments accumulator.
-    YES YES Gets input as ascii number.
-    YES terminates program.
-    NO NO NO Decrements accumulator.
-    NO NO Prints ascii output.
-    NO Jumps to last instruction where the value of the accumulator was 0 if the accumulator is not 0.
+    YES YES YES - Increments accumulator.
+    YES YES - Pauses execution and asks for input as an ascii number.
+    YES - Terminates program.
+    NO NO NO - Decrements accumulator.
+    NO NO - Prints accumulator as an ASCII character.
+    NO - Jumps to last instruction where the value of the accumulator was 0.
 
-    72 101 108 108 111 44 32 119 111 114 108 100 33 10
 */
 using System;
 using System.IO;
