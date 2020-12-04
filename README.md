@@ -8,7 +8,7 @@ An esoteric programming language which is a reference to a specific japanese ani
 is already 255, it will go back to 0 (the opposite also happens: 0 - 1 = 255).
 
   A very important thing to know is that the program will loop forever if not explicitely
-told to terminate with the "YES" command.
+told to not do so by the "YES" command.
 
 # Commands
     "YES YES YES" - Increments accumulator.
