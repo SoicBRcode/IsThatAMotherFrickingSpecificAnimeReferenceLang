@@ -1,4 +1,4 @@
-/*
+﻿/*
 Commands:
     YES YES YES - Increments accumulator.
     YES YES - Pauses execution and asks for input as an ascii number.
@@ -98,6 +98,11 @@ namespace IsThatAMotherFrickingSpecificAnimeReferenceLang
                 if (ProgramCounter >= instructions.Length)
                 {
                     ProgramCounter = 0;
+                }
+
+                if (Accumulator == 0)
+                {
+                    LastZeroInstruction = ProgramCounter;
                 }
             }
 
